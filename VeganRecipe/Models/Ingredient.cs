@@ -12,12 +12,16 @@ namespace VeganRecipe.Models
         [Key]
         public int IngredientId { get; set; }
 
-        [ForeignKey("RecipeID")]
+        
         public int RecipeID { get; set; }
+        [ForeignKey("RecipeID")]
+        public virtual Recipe Recipe { get; set; }
 
+        [Required]
         [Display(Name = "Ingredient Name")]
         public string IngredientName { get; set; }
 
+        [Required]
         [Display(Name = "Ingredient Quantity")]
         public string IngredientQuantity { get; set; }
     }
