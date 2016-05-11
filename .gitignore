@@ -6,6 +6,8 @@
 *.user
 *.userosscache
 *.sln.docstates
+biin
+obj
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
@@ -210,3 +212,5 @@ FakesAssemblies/
 GeneratedArtifacts/
 _Pvt_Extensions/
 ModelManifest.xml
+/VeganRecipe/obj
+/VeganRecipe/bin
